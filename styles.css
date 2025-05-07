@@ -3,7 +3,9 @@
 	background-color:#f5f5f5;
 	padding:25px;
 }
-
+p{
+	margin:0px
+}
 .box{
 	padding:10px;
 	border:1px solid gray;
@@ -13,7 +15,7 @@
 	flex-direction:column
 }
 
-span{
+p:nth-child(2n+2){
 	text-align:right;
 	font-style:italic;
 }
